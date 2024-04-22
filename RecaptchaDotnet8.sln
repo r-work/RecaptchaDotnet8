@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34814.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecaptchaDotnet8", "RecaptchaDotnet8\RecaptchaDotnet8.csproj", "{8FAF0172-339C-48CB-A077-70D4308D22E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FAF0172-339C-48CB-A077-70D4308D22E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FAF0172-339C-48CB-A077-70D4308D22E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FAF0172-339C-48CB-A077-70D4308D22E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FAF0172-339C-48CB-A077-70D4308D22E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79203359-61D9-4D0B-BA7D-701BB14E834D}
+	EndGlobalSection
+EndGlobal
