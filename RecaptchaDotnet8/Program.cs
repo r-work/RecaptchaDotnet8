@@ -1,3 +1,6 @@
+using GoogleCaptchaComponent;
+using GoogleCaptchaComponent.Configuration;
+using GoogleCaptchaComponent.Models;
 using RecaptchaDotnet8.Components;
 
 namespace RecaptchaDotnet8
@@ -10,6 +13,15 @@ namespace RecaptchaDotnet8
 
             // Add services to the container.
             builder.Services.AddRazorComponents();
+
+            builder.Services.AddGoogleCaptcha(options =>
+            {
+                options.DefaultVersion = CaptchaConfiguration.Version.V2;
+                options.V3SiteKey = "Your V3 Site key from Google developer Console";
+                options.V2SiteKey = "Your V2 site key from Google developer Console";
+                options.DefaultTheme = CaptchaConfiguration.Theme.Dark;
+                options.DefaultLanguage = CaptchaLanguages.English;
+            });
 
             var app = builder.Build();
 
